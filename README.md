@@ -1,4 +1,3 @@
-```markdown
 # NetOps Dashboard
 
 A self-hosted, containerized network monitoring stack. A lightweight Python
@@ -78,4 +77,3 @@ laptop or a $5 VM.
 ## License
 
 MIT
-```
