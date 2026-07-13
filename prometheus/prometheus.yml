@@ -1,1 +1,7 @@
+global:
+  scrape_interval: 15s
 
+scrape_configs:
+  - job_name: "netops-agent"
+    static_configs:
+      - targets: ["agent:9105"]
