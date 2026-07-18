@@ -32,6 +32,15 @@ Three containers, wired together with Docker Compose:
 - **grafana** — auto-provisioned datasource + dashboard showing host
   up/down status and latency over time.
 
+  ## Dashboard
+
+<img width="1568" height="750" alt="image" src="https://github.com/user-attachments/assets/4ffb8934-9d9c-4eae-8d0d-0a0bd1afa783" />
+
+The dashboard shows real-time host status (1.1.1.1, 8.8.8.8, github.com) and
+latency trends over time. Green "UP" indicates the agent successfully pinged
+the host in its last check; the graph tracks latency (ms) per host so you
+can spot slowdowns before a host goes fully down.
+
 ## Quick start
 
 ```bash
